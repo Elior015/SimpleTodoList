@@ -35,7 +35,7 @@ window.addEventListener('load', () => {
 function DisplayTodos() {
     const todoList = document.querySelector('#todo-list'); //get the todo list
     
-    todoList.innerHTML = ''; //clear the todo list
+    todoList.innerHTML = ""; //clear the todo list
 
     todos.forEach(todo => { //for each todo in the todos array
         const todoItem = document.createElement('div'); //create a new div element
